@@ -1,0 +1,10 @@
+const Pool = require("pg").Pool;
+const pool = new Pool({
+    user: "postgres",
+    password: "qburst",
+    host: "localhost",
+    port: 5432,
+    database: "ecommercedashboard"
+});
+module.exports = pool;
+//# sourceMappingURL=db.js.map

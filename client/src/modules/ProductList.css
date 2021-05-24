@@ -1,0 +1,101 @@
+.main-container {
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue ;
+}
+
+.header {
+    padding: 5px;
+    box-shadow: 2px 5px 5px grey;
+    background-color: white;
+}
+
+.app-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.title {
+    color: #49a8e0;
+}
+.sub-container{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+}
+.button{
+    background-color: #49a8e0;
+}
+.add-new{
+    background-color: #49a8e0;
+    margin-top: 10px;
+}
+.card-container{
+    width: 20rem;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: "cornsilk";
+    padding: 0;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+.thumbnail{
+    height: 200px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.price{
+    text-align: end;
+}
+
+.input-container{
+    padding: 20px;
+}
+
+.float-right{
+    float: right;
+}
+
+.body-container{
+    padding: 0;
+}
+
+.add-button{
+    float: right;
+    padding: 0px !important;
+}
+
+.search{
+    background-color: #cccccc29;
+}
+
+.search-container{
+    margin-bottom: 50px;
+}
+
+.empty{
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.go-back{
+    margin-bottom: 20px !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
