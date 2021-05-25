@@ -184,7 +184,7 @@ export default function ProductList() {
                 <Card className={classes.prod}>
                   <CardMedia
                     className={classes.cardMedia}
-                    image={prod?.image ? prod.image : defaultImage}
+                    image={prod?.image ? prod.image != "null" ? prod.image : defaultImage : defaultImage}
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
